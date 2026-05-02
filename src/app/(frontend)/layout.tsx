@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { ReactNode } from "react";
-import { Navbar } from "@/features/frontend/navbar/components/navbar";
-import { navbarItems } from "@/features/frontend/navbar/constansts";
+import { Navbar } from "@/features/navbar/components";
+import { navbarItems } from "@/features/navbar/constants";
 
 interface FrontendLayoutProps {
   children: ReactNode

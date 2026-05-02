@@ -2,6 +2,6 @@ import { NavbarItem } from "./types";
 
 export const navbarItems: NavbarItem[] = [
   { label: "home", href: "/" },
-  { label: "blog", href: "/blog" },
+  { label: "posts", href: "/posts" },
   { label: "portfolio", href: "/portfolio" },
 ];

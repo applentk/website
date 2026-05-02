@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "@/styles/globals.css";
 import { ReactNode } from "react";
-import { Navbar } from "@/features/frontend/navbar/components/navbar";
-import { navbarItems } from "@/features/frontend/navbar/constansts";
+import { Navbar } from "@/features/navbar/components";
+import { navbarItems } from "@/features/navbar/constants";
 
 const outfitSans = Outfit({
   variable: "--outfit-sans",
@@ -23,9 +23,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html
       lang="en"
-      className={`${outfitSans.className} h-full antialiased`}
+      className={`${outfitSans.className} antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full">
         { children }
       </body>
     </html>

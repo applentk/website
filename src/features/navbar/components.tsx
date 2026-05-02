@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link";
-import type { NavbarItem } from "../types";
+import type { NavbarItem } from "./types";
 import { usePathname } from "next/navigation";
 
 interface NavbarProps {

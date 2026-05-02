@@ -1,8 +1,8 @@
-export default function AdminPage() {
+export default function PortfolioPage() {
   return (
     <div>
       <h1 className="text-4xl font-bold">
-        Overview
+        Portfolio
       </h1>
     </div>
   );
